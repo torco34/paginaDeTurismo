@@ -1,0 +1,115 @@
+:root {
+    --dark: #5f5f5f;
+    --black: #111111;
+    --gray: #c2c2c2;
+    --yellow: #fff763;
+}
+/*parte del navbar*/
+
+.container_navbar {
+    position: fixed;
+    background: var(--black);
+    width: 100%;
+    z-index: 9999;
+    color: #fff;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+}
+.container_navbar ul li a {
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    color: var(--gray);
+    align-items: center;
+    top: 10px;
+    margin: 20px;
+}
+.container_navbar a.active {
+    color: var(--yellow);
+}
+.container_navbar a:hover {
+    color: var(--yellow);
+}
+
+
+
+/*parrofo de la publicidad*/
+
+.cuerpo_texto {
+    position: relative;
+    top: 150px;
+}
+/*cuerpo del furmulario compra de tiquetes */
+
+.form_compra {
+    position: relative;
+    top: 200px;
+}
+
+
+.form_compra ul li {
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    width: 16%;
+    padding: 12px;
+    right: 15px;
+    height: auto;
+  
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.form_compra ul li:hover {
+    background: #fff763;
+}
+.form_compra a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--black);
+}
+/*formulario los que va deb=ntro*/
+
+.comprer {
+    color: ;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 10px;
+    background: var(--gray);
+    border: none;
+}
+
+
+.image_propaganda {
+    position: relative;
+    top: 300px;
+}
+.container_navbar a {
+    list-style: none;
+    text-decoration: none;
+}
+/*parte del titulo*/
+
+.titulo {
+    margin-left: 20px;
+    color: #c2c2c2;
+    border-radius: 50%;
+    padding: 15px;
+    border: 2px solid var(--yellow);
+    /*background: var(--yellow)*/
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+/*.custom-select{
+	width: 200px;
+
+}*/
+
+/*.tiquetes{
+	position: absolute;
+	/*background: red;*
+	height: 400px;
+	width: 100%;
+	margin-left: 100px;
+}*/

@@ -3,6 +3,7 @@
     --black: #111111;
     --gray: #c2c2c2;
     --yellow: #fff763;
+    --blue: #007bff;
 }
 /*parte del navbar*/
 
@@ -29,9 +30,6 @@
 .container_navbar a:hover {
     color: var(--yellow);
 }
-
-
-
 /*parrofo de la publicidad*/
 
 .cuerpo_texto {
@@ -44,20 +42,16 @@
     position: relative;
     top: 200px;
 }
-
-
 .form_compra ul li {
     position: relative;
     list-style: none;
     text-decoration: none;
     width: 16%;
-    padding: 12px;
+    padding: 15px;
     right: 15px;
     height: auto;
-  
     border-bottom: 1px solid #B6B6B6;
 }
-
 .form_compra ul li:hover {
     background: #fff763;
 }
@@ -78,11 +72,6 @@
     border: none;
 }
 
-
-.image_propaganda {
-    position: relative;
-    top: 300px;
-}
 .container_navbar a {
     list-style: none;
     text-decoration: none;
@@ -95,21 +84,163 @@
     border-radius: 50%;
     padding: 15px;
     border: 2px solid var(--yellow);
-    /*background: var(--yellow)*/
 }
 body {
+    margin: 0px;
     overflow-x: hidden;
     font-family: 'Oswald', sans-serif;
 }
-/*.custom-select{
-	width: 200px;
+/*section donde van las ofertas  con imagenes 1 */
 
-}*/
+.fotos_anucio {
+    position: absolute;
+    width: 100%;
+    height: 63vh;
+    display: none;
+}
+.fotos_anucio h2 {
+    position: absolute;
+    width: 30%;
+    height: 63vh;
+    top: 0px;
+    color: #fff;
+    padding: 10px;
+    left: 40px;
+    font-size: 2vw;
+    background: rgba(0, 0, 0, 0.6);
+   
+}
+.fotos_anucio img {
+    position: absolute;
+    width: 100%;
+    height: 63vh;
+    top: 0px;
+    border-radius: 10px;
+    font-size: 3vw;
+}
+.logo_anuncio {
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    color: var(--blue);
+    border-radius: 70%;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    border: 2px solid var(--yellow);
 
-/*.tiquetes{
-	position: absolute;
-	/*background: red;*
-	height: 400px;
-	width: 100%;
-	margin-left: 100px;
-}*/
+}
+
+
+/*section dos dela publicidad foto 2*/
+
+.fotos_anucio2 {
+    position: absolute;
+    width: 100%;
+    height: 63vh;
+    /*display: none;*/
+}
+.boton_anucio2 {
+    cursor: pointer;
+    position: relative;
+    top: 300px;
+    margin-left: 30px;
+    color: #fff;
+    width: 30%;
+    background: red;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 2vw;
+    border: none;
+}
+.fotos_anucio2 h3 {
+    position: absolute;
+    height: 63vh;
+    top: 0px;
+    color: #fff;
+    padding: 10px;
+    left: 0px;
+    font-size: 3vw;
+}
+.parrafo_anuncio2 {
+    margin-left: 350px;
+    color: #ffff;
+    font-size: 3vw;
+}
+.parrafo_anuncio2 span {
+    color: yellow;
+    font-size: 5vw;
+}
+.parafo_anuncio2 {
+    color: var(--blue);
+    width: 50%;
+      font-size:3vw;
+    background: var(--yellow);
+    border-radius: 10px;
+   font-weight: bold;
+    text-align: center;
+}
+.fotos_anucio2 img {
+    position: absolute;
+    width: 100%;
+    height: 63vh;
+    top: 0px;
+    border-radius: 10px;
+    vertical-align: top;
+    font-size: 3vw;
+}
+/*section de la tercera foto de publicidad foto 3*/
+
+.fotos_anucio3 {
+    position: absolute;
+    width: 100%;
+    height: 63vh;
+    display: none;
+}
+.fotos_anucio3 img {
+    /*border: solid 1px red;*/
+    width: 100%;
+    height: 63px;
+    border-radius: 10px;
+}
+.fotos_anucio3 h2 {
+    padding: 20Px;
+    border: solid 1px red;
+    position: absolute;
+    color: #ffff;
+    top: 70px;
+    left: 350px;
+}
+.fotos_anucio3 h3 {
+    padding: 20Px;
+    color: var(--yellow);
+    position: absolute;
+     font-weight: bold;
+    top: 0px;
+}
+.parrofo_anucio3 {
+    color: var(--blue);
+}
+.porcentaje {
+    color: yellow;
+    font-size: 4vw;
+}
+.boton_anucio3 {
+    position: relative;
+    top: -100px;
+    margin-left: 30px;
+    color: #fff;
+    width: 30%;
+    background: red;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 2vw;
+    border: none;
+    cursor: pointer;
+}
+   
+
+/*section 2  de publicidad */

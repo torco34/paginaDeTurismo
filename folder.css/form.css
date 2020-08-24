@@ -1,177 +1,184 @@
 /*cuerpo  donde va el  formulario color amarrillo*/
-.vuelos, .hoteles, .paquetes, .autos, .traslado, .autosbuses, .cruseros, .turn{
+
+.vuelos, .hoteles, .paquetes, .autos, .traslado, .autosbuses, .cruseros, .turn {
 	position: absolute;
 	background: #fff763;
-	height: 56vh;
+	height: 96.6%;
 	width: 80%;
-	top:0px;
-	border-radius:   0px  10px 10px 0px ;
+	top: 0px;
+	border-radius: 0px 10px 10px 0px;
 	justify-content: center;
 	grid-gap: 30px;
 	grid-template-columns: repeat(auto-fill, 300px);
 	margin-left: 100px;
-
-
-
 }
-
-
-
 /*Section donde va los opacity */
 
-.vuelos{
+.vuelos {
 	position: absolute;
-	transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;
-
+	/*display: none;*/
 }
-
-.hoteles{
+.hoteles {
 	position: absolute;
-	transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;
-
-
+	display: none;
 }
-
-.paquetes{
+.paquetes {
 	position: absolute;
-	transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;
-
-
+	display: none;
 }
-
-.autos{
+.autos {
 	position: absolute;
-	/*transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;*/
-
-
+	display: none;
 }
-.traslado{
+.traslado {
 	position: absolute;
-	transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;
-
-
+	display: none;
 }
-.autosbuses{
+.autosbuses {
 	position: absolute;
-	transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;
-
-
+	display: none;
 }
-
-.cruseros{
+.cruseros {
 	position: absolute;
-	transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;
-
-
+	display: none;
 }
-
-.turn{
+.turn {
 	position: absolute;
-	transition: all 0.3s;
-	opacity: 0;
-	visibility: hidden;
-
-
+    display:none;
 }
-
-
 /*Section donde va los opacity termina */
 
 /*section donde van los arreglos dentro de cada caja */
 
-
 /*formulario de vuelo*/
-.form{
-	margin:20px;
+
+.form {
+	margin: 20px;
 }
-
-
-.form input{
-	margin:15px;
+.form input {
+	margin: 15px;
 }
-
-.form label{
+.form label {
 	position: absolute;
 	margin-top: -30px;
 	padding: 23px;
-    grid-template-columns: repeat(auto-fill, 300px);
-} 
-
-
+	grid-template-columns: repeat(auto-fill, 300px);
+}
 /*formulario del hotel*/
 
-
-.form_hote, .inpus{
-  margin: 20px;
-
-
+.form_hote, .inpus {
+	margin: 20px;
 }
-
-.buscar_hotel{
+.buscar_hotel {
 	width: 100%;
-
-
 }
-
-.form_hote select{
+.form_hote select {
 	position: relative;
 	top: 30px;
-
-
 }
-
-.form_hote .label{
+.form_hote .label {
 	position: relative;
-	/*background: red;*/
 	left: 50px;
-
-
 }
-
 /*formulario de paquetes*/
-.paqu{
+
+.paqu {
 	position: relative;
 	top: 30px;
 }
-
-select{
+.selection {
 	position: relative;
 	margin-top: 70px;
-	
 }
-
-.select{
-position: relative;
-	margin-top: -70px;
-
+.select {
+	position: relative;
+	margin-top: 70px;
 }
-
 /*formulario de alquiles de auto*/
-.almanaque{
+
+.almanaque {
 	position: relative;
 	margin-top: 30px;
 }
-
-.selectAuto{
+.selectAuto {
 	position: relative;
 	top: -40px;
 	margin: 30px;
-
-
 }
+/*furmulario de  tranlado*/
+
+.formTras {
+	position: relative;
+	top: 20px;
+}
+.idaRegreso {
+	margin: 20px;
+}
+.inptSelecHotel {
+	position: relative;
+	/*width: 70%;
+	margin: 10px;
+	left: 10px;*/
+}
+.traslados {
+	position: relative;
+	top: -20px;
+	left: 10px;
+	margin: 10px;
+}
+.select_botones {
+	position: relative;
+	right: 70px;
+	top: 10px;
+}
+.tipoTraslado {
+	position: relative;
+	right: 90px;
+	top: 10px;
+	margin: 20px;
+}
+.tipoTraslados {
+	position: relative;
+	right: 100px;
+	top: 10px;
+}
+/*section de autobuses */
+
+.inputDeBus {
+	position: relative;
+	margin-top: 40px;
+	right: 10px;
+}
+.destinoBus {
+	position: relative;
+	left: 40px;
+	top: -30px;
+}
+/*section donde va el crusero*/
+
+.inputDestinos {
+	position: relative;
+	right: 40px;
+	top: 50px;
+	/*margin: 20px;*/
+}
+.labelCrusero {
+	position: relative;
+	top: 20px;
+}
+.label_crusero {
+	position: relative;
+	top: 100px;
+	margin-bottom: 70px;
+}
+.form_crusero {
+	margin: 20px;
+}
+.labe_crusero {
+	position: relative;
+	top: 70px;
+	left: 50px;
+}
+/*section del tur*/
 
 /*section donde van los arreglos dentro de cada caja termina */
